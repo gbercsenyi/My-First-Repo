@@ -42,7 +42,7 @@ def main():
         else:
             print("I do not understand!")
 
-        exitOrNot = input("Would you like to exit? y/n: ")
+        exitOrNot = input("Would you like to exit, really??? y/n: ")
         if exitOrNot == "y":
             doExit = False
         elif exitOrNot == "n":
